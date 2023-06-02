@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TB_axi_stream_insert_header_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TB_axi_stream_insert_header" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,000.001 ns"></ZoomEndTime>
+      <Cursor1Time time="444.989 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="165"></NameColumnWidth>
+      <ValueColumnWidth column_width="98"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/TB_axi_stream_insert_header/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_axi_stream_insert_header/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_axi_stream_insert_header/valid_in" type="logic">
+      <obj_property name="ElementShortName">valid_in</obj_property>
+      <obj_property name="ObjectShortName">valid_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_axi_stream_insert_header/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_axi_stream_insert_header/keep_in" type="array">
+      <obj_property name="ElementShortName">keep_in[3:0]</obj_property>
+      <obj_property name="ObjectShortName">keep_in[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_axi_stream_insert_header/last_in" type="logic">
+      <obj_property name="ElementShortName">last_in</obj_property>
+      <obj_property name="ObjectShortName">last_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_axi_stream_insert_header/ready_in" type="logic">
+      <obj_property name="ElementShortName">ready_in</obj_property>
+      <obj_property name="ObjectShortName">ready_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_axi_stream_insert_header/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_axi_stream_insert_header/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_axi_stream_insert_header/keep_out" type="array">
+      <obj_property name="ElementShortName">keep_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">keep_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_axi_stream_insert_header/last_out" type="logic">
+      <obj_property name="ElementShortName">last_out</obj_property>
+      <obj_property name="ObjectShortName">last_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_axi_stream_insert_header/ready_out" type="logic">
+      <obj_property name="ElementShortName">ready_out</obj_property>
+      <obj_property name="ObjectShortName">ready_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_axi_stream_insert_header/valid_insert" type="logic">
+      <obj_property name="ElementShortName">valid_insert</obj_property>
+      <obj_property name="ObjectShortName">valid_insert</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_axi_stream_insert_header/data_insert" type="array">
+      <obj_property name="ElementShortName">data_insert[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_insert[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_axi_stream_insert_header/keep_insert" type="array">
+      <obj_property name="ElementShortName">keep_insert[3:0]</obj_property>
+      <obj_property name="ObjectShortName">keep_insert[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_axi_stream_insert_header/ready_insert" type="logic">
+      <obj_property name="ElementShortName">ready_insert</obj_property>
+      <obj_property name="ObjectShortName">ready_insert</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_axi_stream_insert_header/cnt" type="array">
+      <obj_property name="ElementShortName">cnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_axi_stream_insert_header/cnt1" type="array">
+      <obj_property name="ElementShortName">cnt1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_axi_stream_insert_header/rand_interval" type="array">
+      <obj_property name="ElementShortName">rand_interval[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rand_interval[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_axi_stream_insert_header/interval" type="array">
+      <obj_property name="ElementShortName">interval[3:0]</obj_property>
+      <obj_property name="ObjectShortName">interval[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_axi_stream_insert_header/num" type="array">
+      <obj_property name="ElementShortName">num[2:0]</obj_property>
+      <obj_property name="ObjectShortName">num[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_axi_stream_insert_header/DATA_DEPTH" type="array">
+      <obj_property name="ElementShortName">DATA_DEPTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_DEPTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_axi_stream_insert_header/DATA_WD" type="array">
+      <obj_property name="ElementShortName">DATA_WD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_axi_stream_insert_header/DATA_BYTE_WD" type="array">
+      <obj_property name="ElementShortName">DATA_BYTE_WD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_BYTE_WD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_axi_stream_insert_header/DATA_CNT" type="array">
+      <obj_property name="ElementShortName">DATA_CNT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_CNT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_axi_stream_insert_header/BYTE_CNT_WD" type="array">
+      <obj_property name="ElementShortName">BYTE_CNT_WD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BYTE_CNT_WD[31:0]</obj_property>
+   </wvobject>
+</wave_config>
